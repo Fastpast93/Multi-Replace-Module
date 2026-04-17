@@ -9,6 +9,8 @@ A module that lets you replace a mass amount of keywords from a string, instead 
 
 This is a personal project of mine, and my first. I highly recommend you use it in your code.
 
+I reserve the right to prevent anyone else from copyright protecting this. You may use this material in any form that doesn't prevent other people or me from using it.
+
 ---GUIDE---
 
 Define the replacement dictionary like so:
