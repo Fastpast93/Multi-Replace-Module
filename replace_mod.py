@@ -11,6 +11,10 @@ if __name__ == '__main__':
     print('Now that you have your dictionary, you can use mul_replace like so:')
     print('your_substituted_text = mul_replace(your_string, replacement_dict)')
     print('The items found in your_string will be replaced by their respective value in the replacement dictionary.')
+    replacement_dict = {"Hello":"Hi there,", "books":"paper"}
+    string = "Hello World! I like reading books and coding!"
+    print(f"Original: {string}")
+    print(f"Updated:  {mul_replace(string, replacement_dict)}")
 
 #Guide
 #Define the replacement dictionary like so:
@@ -20,7 +24,7 @@ if __name__ == '__main__':
 #your_substituted_text = mul_replace(your_string, replacement_dict)
 #The keywords found in your_string will be replaced by their respective value in the replacement dictionary.
 #Heres an example:
-replacement_dict = {"Hello":"Hi there,", "books":"paper"}
-string = "Hello World! I like reading books and coding!"
-print(f"Original: {string}")
-print(f"Updated:  {mul_replace(string, replacement_dict)}")
+#replacement_dict = {"Hello":"Hi there,", "books":"paper"}
+#string = "Hello World! I like reading books and coding!"
+#print(f"Original: {string}")
+#print(f"Updated:  {mul_replace(string, replacement_dict)}")
